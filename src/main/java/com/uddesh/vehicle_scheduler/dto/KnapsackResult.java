@@ -7,14 +7,7 @@ import java.util.List;
 
 @Data
 @AllArgsConstructor
-public class DepotResult {
-    private int deportId;
-
+public class KnapsackResult {
     private int maxImpact;
-
-    private List<String> selectedTask;
-
-    public DepotResult(int id, int maxImpact) {
-
-    }
+    private List<String> selectedTasks;
 }

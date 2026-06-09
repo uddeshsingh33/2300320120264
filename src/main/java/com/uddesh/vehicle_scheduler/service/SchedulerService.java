@@ -34,13 +34,10 @@ public class SchedulerService {
             int maxImpact = knapsackService.maxImpact(
                     vehicleResponse.getVehicles(),
                     depot.getMechanicHours()
-            );
+            ).getMaxImpact();
 
             result.add(
-                    new DepotResult(
-                            depot.getID(),
-                            maxImpact
-                    )
+                    new DepotResult(depot.getID(), maxImpact)
             );
         }
         return result;
