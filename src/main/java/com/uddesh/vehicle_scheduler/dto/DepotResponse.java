@@ -5,6 +5,6 @@ import lombok.Data;
 import java.util.*;
 
 @Data
-public class DeportResponse {
-    private List<Deport> deports;
+public class DepotResponse {
+    private List<Depot> depots;
 }
